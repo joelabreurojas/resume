@@ -7,6 +7,7 @@
     <meta name="description" content="Joel Abreu's resume (j4breu)" />
     <title>Joel Abreu's resume (j4breu)</title>
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,8 +18,8 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div>
+      <nav class="roboto-medium">
+        <div id="languages">
           <a href="#">English</a>
           <a href="#">Spanish</a>
         </div>
@@ -29,9 +30,11 @@
           <li><a href="#contact">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
-        <a href="https://resume.io/r/Eo0CUWJCy">See Curriculum</a>
+        <a id="curriculum" href="https://resume.io/r/Eo0CUWJCy"
+          >See Curriculum</a
+        >
       </nav>
-      <div>
+      <div id="profile" class="roboto-bold">
         <img src="" alt="Joel Abreu's avatar" />
         <h1>Joel Abreu</h1>
         <p>Software Engineer • Full Stack Developer • Open Sourceist</p>
@@ -60,8 +63,8 @@
     </header>
     <main>
       <section>
-        <h2>About</h2>
-        <p>
+        <h2 id="about" class="roboto-bold">About</h2>
+        <p class="roboto-regular">
           I’m a versatile Backend Engineer with a strong foundation in Python,
           C, and SQLite. I enjoy building automated solutions using MVC
           architectures and REST APIs. I’m constantly expanding my skillset,
@@ -71,8 +74,8 @@
         </p>
       </section>
       <section>
-        <h2>Experience</h2>
-        <p>
+        <h2 id="experience" class="roboto-bold">Experience</h2>
+        <p class="roboto-regular">
           Altough I have no formal work experience, this has not prevented me
           from adapting and leading academic project teams, encouraging
           continuous development through clear communication and the
@@ -81,7 +84,7 @@
       </section>
     </main>
     <footer>
-      <p>Copyright &copy; 2024 Joel Abreu</p>
+      <p class="roboto-medium">Copyright &copy; 2024 Joel Abreu</p>
     </footer>
   </body>
 </html>
