@@ -3,14 +3,14 @@
   --white: #eceff4;
   --blue: #88c0d0;
 
-  --small-size: 1.25em;
-  --medium-size: 1.5em;
-  --large-size: 4em;
+  --small-size: 1rem;
+  --medium-size: 2rem;
+  --large-size: 4rem;
 }
 
 body {
-  font-size: var(--medium-size);
-  line-height: var(--medium-size);
+  font-size: var(--small-size);
+  line-height: 1.5rem;
 }
 
 header {
@@ -27,18 +27,18 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
 }
 
 nav div {
   display: flex;
   flex-direction: row;
-  width: 12em;
-  height: 3.25em;
+  width: 12rem;
+  height: 3.25rem;
 }
 
 nav div :first-child {
-  border-radius: 0.5em 0em 0em 0.5em;
+  border-radius: 0.5rem 0 0 0.5rem;
   color: var(--white);
   background-color: var(--black);
   border: 1px solid var(--white);
@@ -47,7 +47,7 @@ nav div :first-child {
 
 nav div a {
   width: 100%;
-  border-radius: 0em 0.5em 0.5em 0em;
+  border-radius: 0 0.5rem 0.5rem 0rem;
   text-align: center;
   align-content: center;
   color: var(--black);
@@ -62,9 +62,9 @@ nav div a:hover {
 }
 
 #curriculum {
-  width: 12em;
-  height: 3.25em;
-  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  width: 12rem;
+  height: 3.25rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -81,7 +81,7 @@ nav div a:hover {
 nav ul {
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 2rem;
 }
 
 nav ul a:hover {
@@ -92,15 +92,15 @@ nav ul a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3em 0em;
-  gap: 1.5em;
+  padding: 3rem 0rem;
+  gap: 1.5rem;
 }
 
 #profile > img {
-  width: 12.5em;
-  height: 12.5em;
-  border-radius: 62.5em;
-  border: 0.25em solid var(--white);
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 62.5rem;
+  border: 0.25rem solid var(--white);
 }
 
 #profile > ul img:hover {
@@ -108,7 +108,7 @@ nav ul a:hover {
 }
 
 h1 {
-  line-height: 1em;
+  line-height: 4rem;
   font-size: var(--large-size);
 }
 
@@ -116,40 +116,40 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2em;
+  gap: 2rem;
 }
 
 #profile ul a {
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 62.5em;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 62.5rem;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  padding: 3em 12.5em;
-  gap: 2em;
+  padding: 4rem 12.5rem;
+  gap: 2rem;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 1.5rem;
   border: 1px solid var(--black);
-  border-radius: 0.5em;
-  padding: 2em;
+  border-radius: 0.5rem;
+  padding: 2rem;
 }
 
 section h2 {
-  line-height: 1em;
-  font-size: 2.5em;
+  line-height: 1rem;
+  font-size: var(--medium-size);
 }
 
 #education li,
 #skills li {
   list-style-type: circle;
-  margin-left: 1.5em;
+  margin-left: 1.5rem;
 }
 
 #projects a {
@@ -164,7 +164,7 @@ section h2 {
 footer {
   background-color: var(--black);
   color: var(--white);
-  padding: 1em 2em;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
