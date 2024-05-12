@@ -13,6 +13,18 @@ body {
   line-height: 1.5rem;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--blue);
+}
+
 header {
   display: flex;
   flex-direction: column;
