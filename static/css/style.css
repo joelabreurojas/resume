@@ -13,6 +13,7 @@ body {
   line-height: 1.5rem;
   background-color: var(--black);
   color: var(--white);
+  hyphens: unset;
 }
 
 body::-webkit-scrollbar {
