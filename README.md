@@ -1,4 +1,4 @@
-# Joel Abreu's resume (j4breu)
+# Joel Abreu Rojas's resume
 
 This is a single-page online resume built with HTML and CSS.
 
